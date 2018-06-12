@@ -13,4 +13,7 @@ interface ClashApi {
     @GET("/arenas/{id}")
     fun getArena(@Path("id")id: String)
 
+    @GET("/images/arenas/{idName}")
+    fun getImageArenas(@Path("idName") idName: String)
+
 }
