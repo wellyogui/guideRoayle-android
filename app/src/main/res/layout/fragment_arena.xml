@@ -2,10 +2,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.well.clashroyaleguide.view.fragments.ArenaFragments">
+    tools:context="com.example.well.clashroyaleguide.view.fragments.ArenaFragment">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/rvArenas"
+        android:id="@+id/arena_list_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 

@@ -11,8 +11,10 @@ import com.example.well.clashroyaleguide.view.adapter.ArenaAdapter.ArenaAdapterV
 
 class ArenaAdapter(var arenaList: MutableList<Arena>?) : RecyclerView.Adapter<ArenaAdapterViewHolder>() {
 
+
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ArenaAdapterViewHolder {
-        val view: View = LayoutInflater.from(parent.context).inflate(R.layout.arena_list_row, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.arena_list_row, parent, false)
 
         return ArenaAdapterViewHolder(view)
     }
@@ -35,9 +37,9 @@ class ArenaAdapter(var arenaList: MutableList<Arena>?) : RecyclerView.Adapter<Ar
         }
     }
 
-    inner class ArenaAdapterViewHolder(itemView: View?) : RecyclerView.ViewHolder(itemView?.findViewById(R.id.tv_arena_name)){
+    class ArenaAdapterViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
 
-        val tvArenaName: TextView = itemView!!.findViewById(R.id.tv_arena_name)
+        val tvArenaName: TextView = itemView.findViewById(R.id.tv_arena_name)
 
     }
 }

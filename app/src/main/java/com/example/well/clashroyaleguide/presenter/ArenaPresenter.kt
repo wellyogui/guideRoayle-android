@@ -4,7 +4,6 @@ import android.util.Log
 import com.example.well.clashroyaleguide.model.Arena
 import com.example.well.clashroyaleguide.sync.RetrofitClient
 import com.example.well.clashroyaleguide.sync.contracts.ArenaListListener
-import io.reactivex.Observable
 import io.reactivex.Observer
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
@@ -25,7 +24,7 @@ class ArenaPresenter {
                     }
 
                     override fun onSubscribe(d: Disposable) {
-                        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                        arenaListListener.onRequestStarted()
                     }
 
                     override fun onNext(t: MutableList<Arena>) {

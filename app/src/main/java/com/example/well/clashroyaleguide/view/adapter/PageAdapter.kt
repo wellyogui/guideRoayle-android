@@ -12,7 +12,7 @@ class PageAdapter(fm: FragmentManager?) : FragmentStatePagerAdapter(fm) {
 
     private var mNumOfTabs: Int = 0
 
-    private var fragments: MutableList<Fragment>? = null
+    private var fragments: MutableList<Fragment> = arrayListOf()
 
     init {
         fragments?.add(ArenaFragment())

@@ -55,6 +55,10 @@ dependencies {
 
     //Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    apply plugin: 'kotlin-android-extensions'
+    apply plugin: 'com.android.application'
+    apply plugin: 'kotlin-android'
+
 
 }
 repositories {
