@@ -1,4 +1,4 @@
-package com.example.well.clashroyaleguide.view.adapter
+package com.example.well.clashroyaleguide.Arenas
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import com.bumptech.glide.Glide
 import com.example.well.clashroyaleguide.R
-import com.example.well.clashroyaleguide.model.Arena
-import com.example.well.clashroyaleguide.view.adapter.ArenaAdapter.ArenaAdapterViewHolder
+import com.example.well.clashroyaleguide.Service.model.Arena
+import com.example.well.clashroyaleguide.Arenas.ArenaAdapter.ArenaAdapterViewHolder
 import kotlinx.android.synthetic.main.arena_list_row.view.*
 
 class ArenaAdapter(var arenaList: MutableList<Arena>?) : RecyclerView.Adapter<ArenaAdapterViewHolder>() {

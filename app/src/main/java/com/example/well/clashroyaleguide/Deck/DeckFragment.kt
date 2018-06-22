@@ -1,18 +1,24 @@
-package com.example.well.clashroyaleguide.view.fragments
+package com.example.well.clashroyaleguide.Deck
+
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+
 import com.example.well.clashroyaleguide.R
 
-class PlayerFragment : Fragment() {
+
+/**
+ * A simple [Fragment] subclass.
+ */
+class DeckFragment: Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_player, container, false)
+        return inflater.inflate(R.layout.fragment_cards, container, false)
     }
 
-}
+}// Required empty public constructor

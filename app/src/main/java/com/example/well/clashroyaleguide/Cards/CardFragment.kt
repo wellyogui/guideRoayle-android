@@ -1,4 +1,4 @@
-package com.example.well.clashroyaleguide.view.fragments
+package com.example.well.clashroyaleguide.Cards
 
 
 import android.os.Bundle
@@ -9,10 +9,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.well.clashroyaleguide.R
-import com.example.well.clashroyaleguide.model.Cards
-import com.example.well.clashroyaleguide.presenter.CardPresenter
-import com.example.well.clashroyaleguide.sync.contracts.CardListListener
-import com.example.well.clashroyaleguide.view.adapter.CardAdapter
+import com.example.well.clashroyaleguide.Service.model.Cards
+import com.example.well.clashroyaleguide.Service.sync.contracts.CardListListener
 import kotlinx.android.synthetic.main.fragment_card.*
 import kotlinx.android.synthetic.main.fragment_card.view.*
 

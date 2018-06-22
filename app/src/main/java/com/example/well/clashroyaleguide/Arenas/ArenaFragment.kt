@@ -1,4 +1,4 @@
-package com.example.well.clashroyaleguide.view.fragments
+package com.example.well.clashroyaleguide.Arenas
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -8,10 +8,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.well.clashroyaleguide.R
-import com.example.well.clashroyaleguide.model.Arena
-import com.example.well.clashroyaleguide.presenter.ArenaPresenter
-import com.example.well.clashroyaleguide.sync.contracts.ArenaListListener
-import com.example.well.clashroyaleguide.view.adapter.ArenaAdapter
+import com.example.well.clashroyaleguide.Service.model.Arena
+import com.example.well.clashroyaleguide.Arenas.ArenaPresenter
+import com.example.well.clashroyaleguide.Service.sync.contracts.ArenaListListener
+import com.example.well.clashroyaleguide.Arenas.ArenaAdapter
 import kotlinx.android.synthetic.main.fragment_arena.*
 import kotlinx.android.synthetic.main.fragment_arena.view.*
 

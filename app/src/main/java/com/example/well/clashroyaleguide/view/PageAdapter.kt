@@ -1,12 +1,12 @@
-package com.example.well.clashroyaleguide.view.adapter
+package com.example.well.clashroyaleguide.view
 
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentStatePagerAdapter
-import com.example.well.clashroyaleguide.view.fragments.ArenaFragment
-import com.example.well.clashroyaleguide.view.fragments.CardFragment
-import com.example.well.clashroyaleguide.view.fragments.DeckFragment
-import com.example.well.clashroyaleguide.view.fragments.PlayerFragment
+import com.example.well.clashroyaleguide.Arenas.ArenaFragment
+import com.example.well.clashroyaleguide.Cards.CardFragment
+import com.example.well.clashroyaleguide.Deck.DeckFragment
+import com.example.well.clashroyaleguide.Player.PlayerFragment
 
 class PageAdapter(fm: FragmentManager?) : FragmentStatePagerAdapter(fm) {
 

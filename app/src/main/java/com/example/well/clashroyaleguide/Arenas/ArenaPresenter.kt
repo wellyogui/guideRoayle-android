@@ -1,9 +1,9 @@
-package com.example.well.clashroyaleguide.presenter
+package com.example.well.clashroyaleguide.Arenas
 
 import android.util.Log
-import com.example.well.clashroyaleguide.model.Arena
-import com.example.well.clashroyaleguide.sync.RetrofitClient
-import com.example.well.clashroyaleguide.sync.contracts.ArenaListListener
+import com.example.well.clashroyaleguide.Service.model.Arena
+import com.example.well.clashroyaleguide.Service.RetrofitClient
+import com.example.well.clashroyaleguide.Service.sync.contracts.ArenaListListener
 import io.reactivex.Observer
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
