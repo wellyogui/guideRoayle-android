@@ -8,14 +8,14 @@ import android.view.ViewGroup
 import com.bumptech.glide.Glide
 import com.example.well.clashroyaleguide.R
 import com.example.well.clashroyaleguide.Service.model.Arena
-import com.example.well.clashroyaleguide.Arenas.ArenaAdapter.ArenaAdapterViewHolder
 import kotlinx.android.synthetic.main.arena_list_row.view.*
 
-class ArenaAdapter(var arenaList: MutableList<Arena>?) : RecyclerView.Adapter<ArenaAdapterViewHolder>() {
+internal const val imageURl = "http://www.clashapi.xyz/images/arenas/%s.png"
+
+class ArenaAdapter(var arenaList: MutableList<Arena>?) : RecyclerView.Adapter<ArenaAdapter.ArenaAdapterViewHolder>() {
 
     lateinit var context: Context
-
-    val imageURl = "http://www.clashapi.xyz/images/arenas/"
+    lateinit var arena: Arena
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ArenaAdapterViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.arena_list_row, parent, false)
@@ -30,14 +30,7 @@ class ArenaAdapter(var arenaList: MutableList<Arena>?) : RecyclerView.Adapter<Ar
     }
 
     override fun onBindViewHolder(holder: ArenaAdapterViewHolder, position: Int) {
-        val arena: Arena? = arenaList?.get(position)
-
-        holder.tvArenaName.text = arena?.name
-
-        Glide.with(context)
-                .load(imageURl.plus(arena?.idName).plus(".png"))
-                .into(holder.arenaImageView)
-
+        holder.bind(arenaList?.get(position)!!)
     }
 
     fun addAllArenas(arenas: MutableList<Arena>) {
@@ -49,9 +42,17 @@ class ArenaAdapter(var arenaList: MutableList<Arena>?) : RecyclerView.Adapter<Ar
     }
 
     class ArenaAdapterViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
+        fun bind(arena: Arena) = with(itemView){
+            with(arena){
+                arenaNameView.text = arena.name
+                arenaNumberView.text = arena.number.toString()
+                arenaTrophyView.text = arena.minTrophies.toString().plus("+")
+                Glide.with(context)
+                        .load(String.format(imageURl, arena.idName))
+                        .into(arenaImageView)
 
-        val tvArenaName = itemView.tv_arena_name
-        val arenaImageView = itemView.arenaImageView
+            }
 
+        }
     }
 }

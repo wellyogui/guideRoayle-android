@@ -4,19 +4,38 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/arenaImageView"
+    <TextView
+        android:id="@+id/arenaNumberView"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:src="@drawable/placeholder"/>
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:text="arena_number"/>
 
     <TextView
-        android:id="@+id/tv_arena_name"
+        android:id="@+id/arenaNameView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#000"
         android:textColor="#FFF"
         android:textAlignment="center"
         android:text="arena_name"/>
+
+    <TextView
+        android:id="@+id/arenaTrophyView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:text="arena_trophy"/>
+
+
+    <ImageView
+        android:id="@+id/arenaImageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/placeholder"/>
 
 </LinearLayout>
