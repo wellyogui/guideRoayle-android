@@ -4,6 +4,34 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/arenaNumberView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:text="arena_number"/>
+
+    <TextView
+        android:id="@+id/arenaNameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:text="arena_name"/>
+
+    <TextView
+        android:id="@+id/arenaTrophyView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:text="arena_trophy"/>
+
+
     <ImageView
         android:id="@+id/arenaImageView"
         android:layout_width="match_parent"
@@ -11,12 +39,15 @@
         android:src="@drawable/placeholder"/>
 
     <TextView
-        android:id="@+id/tv_arena_name"
+        android:id="@+id/unlockedCardsView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#000"
-        android:textColor="#FFF"
         android:textAlignment="center"
-        android:text="arena_name"/>
+        android:text="Cartas Desbloqueadas:"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
 
 </LinearLayout>
