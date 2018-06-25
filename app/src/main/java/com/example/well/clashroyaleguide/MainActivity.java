@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.well.clashroyaleguide.view.adapter.PageAdapter;
+import com.example.well.clashroyaleguide.view.PageAdapter;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

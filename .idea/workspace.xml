@@ -11,27 +11,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f35eb7f3-28b2-4b95-ad22-ad82dd4b0209" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_2_50_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/response/ArenaData.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/response/CardsData.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/response/ChestsData.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/response/LeaguesData.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/response/LevelPlayerData.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/response/RandomDeckData.kt" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_41_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_50_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_41_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_50_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/ArenaAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/ArenaAdapter.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/MainActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/Arena.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Arena.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/ArenaTowers.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/ArenaTowers.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/Cards.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Cards.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/Chests.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Chests.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/Clan.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Clan.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/Donate.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Donate.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/Gold.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Gold.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/KingTower.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/KingTower.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/Leagues.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Leagues.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/LevelPlayer.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/LevelPlayer.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/RandomDeck.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/RandomDeck.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/Request.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Request.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/RequestClan.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/RequestClan.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/Towers.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Towers.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/Unlock.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Unlock.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/presenter/ArenaPresenter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Arenas/ArenaPresenter.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/presenter/CardPresenter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Cards/CardPresenter.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/ClashApi.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/ClashApi.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/RetrofitClient.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/RetrofitClient.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/contracts/ArenaListListener.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/contracts/ArenaListListener.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/contracts/BaseListener.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/contracts/BaseListener.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/contracts/CardListListener.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/contracts/CardListListener.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/response/ArenaData.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/response/CardsData.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/response/ChestsData.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/response/LeaguesData.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/response/LevelPlayerData.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/response/RandomDeckData.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/ArenaAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Arenas/ArenaAdapter.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/CardAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Cards/CardAdapter.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/DeckAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Deck/DeckAdapter.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/PageAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/PageAdapter.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/PlayerAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Player/PlayerAdapter.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/ArenaFragment.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Arenas/ArenaFragment.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/CardFragment.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Cards/CardFragment.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/DeckFragment.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Deck/DeckFragment.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/PlayerFragment.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Player/PlayerFragment.kt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/arena_list_row.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/arena_list_row.xml" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_arena.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_arena.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_card.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_card.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cards.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cards.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_player.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_player.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,43 +96,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArenaAdapter.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/ArenaAdapter.kt">
+      <file leaf-file-name="PageAdapter.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/PageAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-              <folding>
-                <element signature="e#56#715#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="56">
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClashApi.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/ClashApi.kt">
+      <file leaf-file-name="ArenaAdapter.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Arenas/ArenaAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="140">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArenaFragment.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Arenas/ArenaFragment.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arena_list_row.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/arena_list_row.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="38" column="45" lean-forward="false" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_arena.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_arena.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardAdapter.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Cards/CardAdapter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CardPresenter.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/presenter/CardPresenter.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Cards/CardPresenter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CardFragment.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/CardFragment.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            <state relative-caret-position="352">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2291,9 +2360,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/CardFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/card_list_row.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/arena_list_row.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/Cards.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/ArenaAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/arena_list_row.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Arenas/ArenaFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Arenas/ArenaAdapter.kt" />
       </list>
     </option>
   </component>
@@ -2339,6 +2410,20 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="clashroyaleguide" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guideRoayle-android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="clashroyaleguide" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Arenas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guideRoayle-android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="clashroyaleguide" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guideRoayle-android" type="1abcf292:AndroidViewProjectNode" />
@@ -2548,6 +2633,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="778" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2555,17 +2641,17 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24555735" sideWeight="0.5785582" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28636363" sideWeight="0.5177706" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3530303" sideWeight="0.5201939" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875606" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4378788" sideWeight="0.49030694" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50151515" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3530303" sideWeight="0.48303714" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3530303" sideWeight="0.47980613" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24555735" sideWeight="0.42144176" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28636363" sideWeight="0.4822294" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24555735" sideWeight="0.42144176" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28636363" sideWeight="0.4822294" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3242424" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2601,6 +2687,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50151515" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24555735" sideWeight="0.42144176" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3242424" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24555735" sideWeight="0.5048143" order="6" side_tool="true" content_ui="tabs" />
@@ -2669,42 +2756,8 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Arenas/ArenaAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Arenas/ArenaFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/ArenaFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#58#706#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/CardFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="31" column="52" lean-forward="false" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-          <folding>
-            <element signature="e#59#700#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/ArenaFragment.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/CardFragment.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card_list_row.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -2716,16 +2769,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/ArenaAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding>
-            <element signature="e#56#715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/ArenaAdapter.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/arena_list_row.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -2744,16 +2788,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/ArenaFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="25" column="83" lean-forward="false" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
-          <folding>
-            <element signature="e#58#706#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/ArenaFragment.kt" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2762,13 +2797,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/presenter/ArenaPresenter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="26" column="60" lean-forward="false" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/presenter/ArenaPresenter.kt" />
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
@@ -2777,23 +2806,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/PageAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/ArenaAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="e#56#715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/PageAdapter.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/ArenaAdapter.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -2812,33 +2826,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/ArenaAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#56#715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/PageAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/ArenaFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#58#706#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/ArenaAdapter.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/PageAdapter.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/ArenaFragment.kt" />
     <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/android/app/ActivityThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -2861,13 +2851,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/PageAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/PageAdapter.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Utils/RetrofitInitializer.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -2875,19 +2859,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/RetrofitClient.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/RetrofitClient.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/training-camp.png" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/training-camp.jpg" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_arena.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="98">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -2896,37 +2874,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/presenter/CardPresenter.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/presenter/ArenaPresenter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/contracts/ArenaListListener.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/contracts/CardListListener.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/ArenaFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#58#706#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/presenter/ArenaPresenter.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/contracts/ArenaListListener.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/contracts/CardListListener.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/ArenaFragment.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_card.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -2949,21 +2900,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/CardAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="40" column="61" lean-forward="false" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
-          <folding>
-            <element signature="e#56#409#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/CardAdapter.kt" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2983,18 +2924,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/Arena.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/Arena.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/arena_list_row.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="50" column="39" lean-forward="false" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+        <state relative-caret-position="472">
+          <caret line="38" column="45" lean-forward="false" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -3002,14 +2936,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/ClashApi.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/sync/ClashApi.kt" />
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -3018,37 +2945,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/presenter/CardPresenter.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/presenter/CardPresenter.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/Cards.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/CardFragment.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/ArenaAdapter.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Arenas/ArenaFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="354">
+          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/model/Cards.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Arenas/ArenaAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="140">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/fragments/CardFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/adapter/ArenaAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding>
-            <element signature="e#56#715#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

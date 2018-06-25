@@ -38,16 +38,4 @@
         android:layout_height="250dp"
         android:src="@drawable/placeholder"/>
 
-    <TextView
-        android:id="@+id/unlockedCardsView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:text="Cartas Desbloqueadas:"/>
-
-    <android.support.v7.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"/>
-
 </LinearLayout>
