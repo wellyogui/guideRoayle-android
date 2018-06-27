@@ -13,15 +13,16 @@ import com.example.well.clashroyaleguide.service.model.Cards
 import com.example.well.clashroyaleguide.service.sync.contracts.CardListListener
 import kotlinx.android.synthetic.main.fragment_card.*
 import kotlinx.android.synthetic.main.fragment_card.view.*
+import java.util.*
 
 /**
  * A simple [Fragment] subclass.
  */
 
-internal const val COMMON = "Common"
-internal const val RAR: String = "Rare"
-internal const val EPI = "Epic"
-internal const val LEGENDARY = "Legendary"
+internal const val RARITY = "RARITY"
+internal const val DESC_RARITY = "DESC_RARITY"
+internal const val ARENA = "ARENA"
+internal const val ELIXIR = "ELIXIR"
 
 class CardFragment: Fragment() {
 
@@ -36,7 +37,7 @@ class CardFragment: Fragment() {
         val linearLayout = GridLayoutManager(context,4)
         view.cardListView.layoutManager = linearLayout
 
-        view.orderView.setOnClickListener { sortBy("Raridade") }
+        view.orderView.setOnClickListener { sortBy(ELIXIR) }
         getAllCards()
 
         return view
@@ -44,10 +45,42 @@ class CardFragment: Fragment() {
 
     private fun sortBy(sortBy: String){
         when (sortBy) {
-            "Raridade" -> {
+            RARITY -> {
+                view?.orderView?.text = RARITY
                 val sorted = cards.groupBy { (it.rarity) }
                 cards.clear()
                 sorted.values.forEach {
+                    cards.addAll(it)
+                }
+                updateList()
+            }
+
+            DESC_RARITY -> {
+                view?.orderView?.text = DESC_RARITY
+                val sorted = cards.groupBy { (it.rarity) }
+                cards.clear()
+                sorted.values.reversed().forEach {
+                    cards.addAll(it)
+                }
+                updateList()
+            }
+
+            ARENA -> {
+                view?.orderView?.text = ARENA
+                val sorted = cards.groupBy { (it.arena) }
+                cards.clear()
+                sorted.values.forEach {
+                    cards.addAll(it)
+                }
+                updateList()
+            }
+
+            ELIXIR -> {
+                view?.orderView?.text = ELIXIR
+                val sorted = cards.groupBy { (it.elixirCost) }
+                val orded = TreeMap(sorted)
+                cards.clear()
+                orded.values.forEach {
                     cards.addAll(it)
                 }
                 updateList()
