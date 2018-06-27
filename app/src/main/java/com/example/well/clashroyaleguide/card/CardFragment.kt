@@ -23,12 +23,13 @@ internal const val RARITY = "RARITY"
 internal const val DESC_RARITY = "DESC_RARITY"
 internal const val ARENA = "ARENA"
 internal const val ELIXIR = "ELIXIR"
+internal var ORDER_BY = 0
 
 class CardFragment: Fragment() {
-
     lateinit var cardAdapter: CardAdapter
     lateinit var cards: MutableList<Cards>
-    var cardPresenter = CardPresenter()
+    private var cardPresenter = CardPresenter()
+    private val orderList = arrayListOf("Por raridade", "Por raridade (Descrescente)", "Por arena", "Por elixir")
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -37,7 +38,33 @@ class CardFragment: Fragment() {
         val linearLayout = GridLayoutManager(context,4)
         view.cardListView.layoutManager = linearLayout
 
-        view.orderView.setOnClickListener { sortBy(ELIXIR) }
+        view?.orderView?.text = orderList[0]
+
+
+        view.orderView.setOnClickListener {
+            when (ORDER_BY) {
+                -1 -> {
+                    sortBy(RARITY)
+                    ORDER_BY += 1
+                }
+
+                0 -> {
+                    sortBy(DESC_RARITY)
+                    ORDER_BY += 1
+                }
+
+                1 -> {
+                    sortBy(ARENA)
+                    ORDER_BY += 1
+                }
+
+                2 -> {
+                    sortBy(ELIXIR)
+                    ORDER_BY = -1
+                }
+            }
+        }
+
         getAllCards()
 
         return view
@@ -46,46 +73,27 @@ class CardFragment: Fragment() {
     private fun sortBy(sortBy: String){
         when (sortBy) {
             RARITY -> {
-                view?.orderView?.text = RARITY
-                val sorted = cards.groupBy { (it.rarity) }
-                cards.clear()
-                sorted.values.forEach {
-                    cards.addAll(it)
-                }
-                updateList()
+                view?.orderView?.text = orderList[0]
+                sortByRarity(cards)
             }
 
             DESC_RARITY -> {
-                view?.orderView?.text = DESC_RARITY
-                val sorted = cards.groupBy { (it.rarity) }
-                cards.clear()
-                sorted.values.reversed().forEach {
-                    cards.addAll(it)
-                }
-                updateList()
+                view?.orderView?.text = orderList[1]
+                sortByRarityDesc(cards)
             }
 
             ARENA -> {
-                view?.orderView?.text = ARENA
-                val sorted = cards.groupBy { (it.arena) }
-                cards.clear()
-                sorted.values.forEach {
-                    cards.addAll(it)
-                }
-                updateList()
+                view?.orderView?.text = orderList[2]
+                sortByArena(cards)
             }
 
             ELIXIR -> {
-                view?.orderView?.text = ELIXIR
-                val sorted = cards.groupBy { (it.elixirCost) }
-                val orded = TreeMap(sorted)
-                cards.clear()
-                orded.values.forEach {
-                    cards.addAll(it)
-                }
-                updateList()
+                view?.orderView?.text = orderList[3]
+                sortByElixir(cards)
             }
         }
+
+        updateList()
     }
 
     private fun updateList(){
@@ -93,11 +101,50 @@ class CardFragment: Fragment() {
         cardListView.adapter = cardAdapter
     }
 
-    private fun getAllCards(){
+    private fun sortByRarity(listCard: MutableList<Cards>){
+        val sorted = listCard.groupBy { (it.rarity) }
+        if (sorted.keys.first() != "Common") {
+            getAllCards()
+        } else {
+            listCard.clear()
+            sorted.values.forEach {
+                listCard.addAll(it)
+            }
+        }
+    }
+
+
+    private fun sortByRarityDesc(listCard: MutableList<Cards>){
+        val sorted = listCard.groupBy { (it.rarity) }
+        listCard.clear()
+        sorted.values.reversed().forEach {
+            listCard.addAll(it)
+        }
+    }
+
+    private fun sortByArena(listCard: MutableList<Cards>) {
+        sortByRarityDesc(listCard)
+        val sorted = cards.groupBy { (it.arena) }
+        listCard.clear()
+        sorted.values.forEach {
+            listCard.addAll(it)
+        }
+    }
+
+    private fun sortByElixir(listCard: MutableList<Cards>) {
+        val sorted = listCard.groupBy { (it.elixirCost) }
+        val order = TreeMap(sorted)
+        listCard.clear()
+        order.values.forEach {
+            listCard.addAll(it)
+        }
+    }
+
+    private fun getAllCards() {
         cardPresenter.getAllCards(object : CardListListener {
             override fun onCardListLoad(cardList: MutableList<Cards>) {
                 cards = cardList
-
+                sortByRarity(cards)
                 cardAdapter = CardAdapter(cards)
                 cardAdapter.addAllCards(cards)
                 cardListView.adapter = cardAdapter
@@ -114,9 +161,7 @@ class CardFragment: Fragment() {
             override fun onError(error: Throwable) {
                 Log.d("onError", error.message)
             }
-        }
-
-        )
+        })
     }
 
 }
