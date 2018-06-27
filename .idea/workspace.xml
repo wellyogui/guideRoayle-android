@@ -10,68 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f35eb7f3-28b2-4b95-ad22-ad82dd4b0209" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/utils/ViewExt.kt" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Cards/CardAdapter.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Cards/CardFragment.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Cards/CardPresenter.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Deck/DeckAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/deck/DeckAdapter.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Deck/DeckFragment.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/deck/DeckFragment.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Player/PlayerAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/player/PlayerAdapter.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Player/PlayerFragment.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/player/PlayerFragment.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/ClashApi.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/ClashApi.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/RetrofitClient.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/RetrofitClient.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Arena.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Arena.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/ArenaTowers.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/ArenaTowers.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Cards.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Cards.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Chests.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Chests.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Clan.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Clan.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Donate.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Donate.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Gold.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Gold.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/KingTower.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/KingTower.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Leagues.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Leagues.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/LevelPlayer.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/LevelPlayer.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/RandomDeck.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/RandomDeck.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Request.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Request.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/RequestClan.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/RequestClan.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Towers.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Towers.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/model/Unlock.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Unlock.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/contracts/ArenaListListener.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/contracts/ArenaListListener.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/contracts/BaseListener.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/contracts/BaseListener.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/contracts/CardListListener.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/contracts/CardListListener.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/response/ArenaData.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/response/ArenaData.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/response/CardsData.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/response/CardsData.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/response/ChestsData.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/response/ChestsData.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/response/LeaguesData.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/response/LeaguesData.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/response/LevelPlayerData.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/response/LevelPlayerData.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Service/sync/response/RandomDeckData.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/response/RandomDeckData.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/Utils/RetrofitInitializer.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/arenas/ArenaAdapter.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/arenas/ArenaFragment.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/arenas/ArenaPresenter.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/PageAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/view/PageAdapter.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_arena.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_arena.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_card.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_card.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cards.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cards.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_player.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_player.xml" />
-    </list>
+    <list default="true" id="f35eb7f3-28b2-4b95-ad22-ad82dd4b0209" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,8 +42,8 @@
       <file leaf-file-name="CardAdapter.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/card/CardAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+            <state relative-caret-position="361">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -3027,8 +2966,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/card/CardAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        <state relative-caret-position="361">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
           <folding />
         </state>
       </provider>
