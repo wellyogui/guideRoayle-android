@@ -1,6 +1,8 @@
 package com.example.well.clashroyaleguide.card
 
 import android.content.Context
+import android.content.Intent
+import android.support.design.widget.Snackbar
 import android.support.v4.content.res.ResourcesCompat
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
@@ -10,7 +12,10 @@ import android.widget.ImageView
 import com.bumptech.glide.Glide
 import com.example.well.clashroyaleguide.R
 import com.example.well.clashroyaleguide.service.model.Cards
+import com.example.well.clashroyaleguide.utils.showSnackBar
 import kotlinx.android.synthetic.main.card_list_row.view.*
+
+
 
 /**
  * Created by wellingtonyogui on 21/02/2018.
@@ -23,13 +28,20 @@ internal const val EPIC = "Epic"
 class CardAdapter(var cardList: MutableList<Cards>?): RecyclerView.Adapter<CardAdapter.CardAdapterViewHolder>() {
 
     private lateinit var context: Context
+    private lateinit var card: Cards
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardAdapterViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.card_list_row, parent, false)
 
         context = parent.context
 
-        return CardAdapterViewHolder(view)
+        return CardAdapterViewHolder(view).listen{pos, type ->
+            val name = cardList!![pos].name
+            card = cardList!![pos]
+            view.showSnackBar(name, Snackbar.LENGTH_SHORT)
+            val intent = Intent(context, CardDetailActivity::class.java)
+            context.startActivity(intent)
+        }
     }
 
     override fun getItemCount(): Int {
@@ -77,4 +89,11 @@ class CardAdapter(var cardList: MutableList<Cards>?): RecyclerView.Adapter<CardA
     class CardAdapterViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         var cardImage = itemView.cardImageView
     }
+}
+
+fun <T : RecyclerView.ViewHolder> T.listen(event: (position: Int, type: Int) -> Unit): T {
+    itemView.setOnClickListener {
+        event.invoke(adapterPosition, itemViewType)
+    }
+    return this
 }

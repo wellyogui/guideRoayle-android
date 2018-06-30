@@ -70,6 +70,8 @@ class CardFragment: Fragment() {
         return view
     }
 
+
+
     private fun sortBy(sortBy: String){
         when (sortBy) {
             RARITY -> {
@@ -163,5 +165,4 @@ class CardFragment: Fragment() {
             }
         })
     }
-
 }
