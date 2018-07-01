@@ -6,63 +6,22 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f35eb7f3-28b2-4b95-ad22-ad82dd4b0209" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_timber_timber_4_7_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_anko_0_10_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_anko_appcompat_v7_0_10_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_anko_appcompat_v7_commons_0_10_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_anko_appcompat_v7_coroutines_0_10_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_anko_commons_0_10_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_anko_coroutines_0_10_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_anko_sdk25_0_10_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_anko_sdk25_coroutines_0_10_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_anko_sqlite_0_10_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_anko_support_v4_0_10_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_anko_support_v4_commons_0_10_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_16_0_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_0_15_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_0_15_jar.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_0_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_2_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/card/CardAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/card/CardAdapter.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/card/CardDetailActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/card/CardDetailActivity.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/card/CardFragment.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/card/CardFragment.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/card/CardPresenter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/card/CardPresenter.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/ClashApi.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/ClashApi.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/ArenaTowers.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/ArenaTower.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Cards.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Chests.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Chest.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/KingTower.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/KingTower.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Leagues.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/League.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/LevelPlayer.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/LevelPlayer.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Towers.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Tower.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/contracts/CardListListener.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/contracts/CardListListener.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/response/CardsData.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/response/CardsData.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/response/ChestsData.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/response/ChestsData.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/response/LeaguesData.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/sync/response/LeaguesData.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_card_detail.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_card_detail.xml" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin-build/version.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Card.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Card.kt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -129,8 +88,8 @@
       <file leaf-file-name="Card.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Card.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175">
-              <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="-243">
+              <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -207,6 +166,7 @@
       <find>kotlin_version</find>
       <find>var</find>
       <find>@Expose</find>
+      <find>cards</find>
     </findStrings>
     <replaceStrings>
       <replace>0.1dp</replace>
@@ -2652,7 +2612,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4378788" sideWeight="0.49030694" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50151515" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3530303" sideWeight="0.48303714" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3530303" sideWeight="0.48303714" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2662,7 +2622,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3378788" sideWeight="0.47738287" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3378788" sideWeight="0.47738287" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24555735" sideWeight="0.5048143" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2721,12 +2681,6 @@
           <line>33</line>
           <properties />
           <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Card.kt</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="65" />
@@ -3103,8 +3057,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/well/clashroyaleguide/service/model/Card.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        <state relative-caret-position="-243">
+          <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
           <folding />
         </state>
       </provider>

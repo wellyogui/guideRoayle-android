@@ -4,7 +4,7 @@ import android.os.Parcel
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 
-open class Card(@SerializedName("id")
+open class Card(@SerializedName("_id")
                 val id: String,
                 @SerializedName("idName")
                 val idName: String,
@@ -22,10 +22,8 @@ open class Card(@SerializedName("id")
                 val arena: Int,
                 @SerializedName("order")
                 val order: Int,
-                @SerializedName("v")
+                @SerializedName("__v")
                 val v: Int, // ????????
-                @SerializedName("cards")
-                open val cards: MutableList<String>,
         //Belong to Chests
                 @SerializedName("number")
                 val number: Int,
@@ -48,7 +46,6 @@ open class Card(@SerializedName("id")
             source.readInt(),
             source.readInt(),
             source.readInt(),
-            source.createStringArrayList(),
             source.readInt(),
             source.readInt(),
             source.readInt(),
@@ -69,7 +66,6 @@ open class Card(@SerializedName("id")
         writeInt(arena)
         writeInt(order)
         writeInt(v)
-        writeStringList(cards)
         writeInt(number)
         writeInt(minLegendary)
         writeInt(minEpic)
