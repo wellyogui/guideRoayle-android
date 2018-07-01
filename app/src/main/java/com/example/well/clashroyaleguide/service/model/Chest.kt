@@ -3,25 +3,25 @@ package com.example.well.clashroyaleguide.service.model
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-class Chests (@SerializedName("id")
+class Chest (@SerializedName("id")
               @Expose var id : String,
-              @SerializedName("idName")
+             @SerializedName("idName")
               @Expose var idName: String,
-              @SerializedName("name")
+             @SerializedName("name")
               @Expose var name: String,
-              @SerializedName("description")
+             @SerializedName("description")
               @Expose var descritpion: String,
-              @SerializedName("order")
+             @SerializedName("order")
               @Expose var order: Int,
-              @SerializedName("v")
+             @SerializedName("v")
               @Expose var v: Int, //???????
-              @SerializedName("gemCost")
+             @SerializedName("gemCost")
               @Expose var gemCost: Int,
-              @SerializedName("Arena")
+             @SerializedName("Arena")
               @Expose var arena: Arena,
-              @SerializedName("unlocks")
+             @SerializedName("unlocks")
               @Expose var unlocks: MutableList<Unlock>,
-              @SerializedName("gold")
+             @SerializedName("gold")
               @Expose var gold: MutableList<Gold>,
-              @SerializedName("cards")
-              @Expose var cards: MutableList<Cards>)
+             @SerializedName("cards")
+              @Expose var cards: MutableList<Card>)

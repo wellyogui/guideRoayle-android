@@ -1,7 +1,6 @@
 package com.example.well.clashroyaleguide.card
 
 import android.content.Context
-import android.content.Intent
 import android.support.design.widget.Snackbar
 import android.support.v4.content.res.ResourcesCompat
 import android.support.v7.widget.RecyclerView
@@ -11,10 +10,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import com.bumptech.glide.Glide
 import com.example.well.clashroyaleguide.R
-import com.example.well.clashroyaleguide.service.model.Cards
+import com.example.well.clashroyaleguide.service.model.Card
 import com.example.well.clashroyaleguide.utils.showSnackBar
 import kotlinx.android.synthetic.main.card_list_row.view.*
-
 
 
 /**
@@ -25,22 +23,21 @@ internal const val IMAGECARD ="http://www.clashapi.xyz/images/cards/"
 internal const val RARE = "Rare"
 internal const val EPIC = "Epic"
 
-class CardAdapter(var cardList: MutableList<Cards>?): RecyclerView.Adapter<CardAdapter.CardAdapterViewHolder>() {
+class CardAdapter(var cardList: MutableList<Card>?): RecyclerView.Adapter<CardAdapter.CardAdapterViewHolder>() {
 
     private lateinit var context: Context
-    private lateinit var card: Cards
+    private lateinit var card: Card
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardAdapterViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.card_list_row, parent, false)
 
         context = parent.context
 
-        return CardAdapterViewHolder(view).listen{pos, type ->
+        return CardAdapterViewHolder(view).listen { pos, type ->
             val name = cardList!![pos].name
             card = cardList!![pos]
             view.showSnackBar(name, Snackbar.LENGTH_SHORT)
-            val intent = Intent(context, CardDetailActivity::class.java)
-            context.startActivity(intent)
+            CardDetailActivity.startActivity(context, card)
         }
     }
 
@@ -78,7 +75,7 @@ class CardAdapter(var cardList: MutableList<Cards>?): RecyclerView.Adapter<CardA
         return position
     }
 
-    fun addAllCards(cards: MutableList<Cards>) {
+    fun addAllCards(cards: MutableList<Card>) {
         if (cardList != null) {
             cardList = cards
         } else {

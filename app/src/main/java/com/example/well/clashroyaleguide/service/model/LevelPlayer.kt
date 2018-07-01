@@ -20,7 +20,7 @@ class LevelPlayer (@SerializedName("id")
                    @SerializedName("v")
                    @Expose var v: Int, // ??????????
                    @SerializedName("arenaTowers")
-                   @Expose var arenaTowers: MutableList<ArenaTowers>,
+                   @Expose var arenaTowers: MutableList<ArenaTower>,
                    @SerializedName("levelPlayer")
                    @Expose var levelPlayer: MutableList<String>)
 

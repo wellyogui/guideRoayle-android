@@ -14,4 +14,4 @@ class KingTower(@SerializedName("hitPoint")
                 @SerializedName("damage")
                 @Expose override var damage: Int,
                 @SerializedName("hitSpeed")
-                @Expose override var hitSpeed: Int) : Towers(hitPoint, range, damage, hitSpeed)
+                @Expose override var hitSpeed: Int) : Tower(hitPoint, range, damage, hitSpeed)
