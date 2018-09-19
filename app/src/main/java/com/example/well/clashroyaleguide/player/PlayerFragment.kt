@@ -9,6 +9,10 @@ import com.example.well.clashroyaleguide.R
 
 class PlayerFragment : Fragment() {
 
+    companion object {
+        fun newInstance(): PlayerFragment = PlayerFragment()
+    }
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
