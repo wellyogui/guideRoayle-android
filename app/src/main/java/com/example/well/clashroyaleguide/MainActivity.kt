@@ -30,7 +30,7 @@ class MainActivity: AppCompatActivity() {
 
     private val onNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
-            //TODO: Implementar busca,
+            //TODO: Implementar busca, CLAN COM STATS DA GUERRA
             R.id.navigation_player -> {
                 toolbar.title = "Player"
                 val playerFragment = PlayerFragment.newInstance()

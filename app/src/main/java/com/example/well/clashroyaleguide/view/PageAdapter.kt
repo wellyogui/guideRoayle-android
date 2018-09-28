@@ -3,10 +3,8 @@ package com.example.well.clashroyaleguide.view
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentStatePagerAdapter
-import com.example.well.clashroyaleguide.arena.ArenaFragment
 import com.example.well.clashroyaleguide.card.CardFragment
-import com.example.well.clashroyaleguide.deck.DeckFragment
-import com.example.well.clashroyaleguide.player.PlayerFragment
+import com.example.well.clashroyaleguide.player.PlayerDetailFragment
 
 class PageAdapter(fm: FragmentManager?) : FragmentStatePagerAdapter(fm) {
 
@@ -15,10 +13,8 @@ class PageAdapter(fm: FragmentManager?) : FragmentStatePagerAdapter(fm) {
     private var fragments: MutableList<Fragment> = arrayListOf()
 
     init {
-        fragments.add(ArenaFragment())
+        fragments.add(PlayerDetailFragment())
         fragments.add(CardFragment())
-        fragments.add(DeckFragment())
-        fragments.add(PlayerFragment())
 
         mNumOfTabs = fragments.size
     }
@@ -27,13 +23,9 @@ class PageAdapter(fm: FragmentManager?) : FragmentStatePagerAdapter(fm) {
         lateinit  var fragment: Fragment
 
         when (position){
-            0 -> fragment = ArenaFragment()
+            0 -> fragment = PlayerDetailFragment()
 
             1 -> fragment = CardFragment()
-
-            2 -> fragment = DeckFragment()
-
-            3 -> fragment = PlayerFragment()
         }
 
         return fragment
