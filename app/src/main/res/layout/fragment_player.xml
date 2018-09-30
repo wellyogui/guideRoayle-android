@@ -5,20 +5,31 @@
              android:layout_height="match_parent"
              tools:context="com.example.well.clashroyaleguide.player.PlayerFragment">
 
-    <android.support.design.widget.TabLayout
-        android:id="@+id/tabView"
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/toolbar"
-        android:background="@color/colorPrimary"
-        android:elevation="6dp"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:tabMode="scrollable"/>
+        android:layout_height="match_parent">
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/viewPagerView"
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/tabView"/>
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:elevation="6dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tabMode="scrollable"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPagerView"
+            android:layout_width="match_parent"
+            android:layout_height="452dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tabView"/>
+
+    </android.support.constraint.ConstraintLayout>
 
 </FrameLayout>

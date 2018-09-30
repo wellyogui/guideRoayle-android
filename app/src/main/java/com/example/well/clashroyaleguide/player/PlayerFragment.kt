@@ -18,17 +18,16 @@ class PlayerFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        // Inflate the layout for this fragment
-
-        setTabs()
-
         return inflater.inflate(R.layout.fragment_player, container, false)
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        setTabs()
+    }
+
     private fun setTabs() {
-        val fragmentManager = this.activity?.let {
-            it.supportFragmentManager
-        }
+        val fragmentManager = this.activity?.supportFragmentManager
 
         tabView.removeAllTabs()
 

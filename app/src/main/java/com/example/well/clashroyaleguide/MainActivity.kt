@@ -26,6 +26,7 @@ class MainActivity: AppCompatActivity() {
 
         val bottomNavigation: BottomNavigationView = navigationView
         bottomNavigation.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)
+        bottomNavigation.selectedItemId = R.id.navigation_player
     }
 
     private val onNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
