@@ -9,7 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.well.clashroyaleguide.R
-import com.example.well.clashroyaleguide.service.model.Cards
+import com.example.well.clashroyaleguide.service.model.Card
 import com.example.well.clashroyaleguide.service.sync.contracts.CardListListener
 import kotlinx.android.synthetic.main.fragment_card.*
 import kotlinx.android.synthetic.main.fragment_card.view.*
@@ -26,8 +26,13 @@ internal const val ELIXIR = "ELIXIR"
 internal var ORDER_BY = 0
 
 class CardFragment: Fragment() {
+
+    companion object {
+        fun newInstance(): CardFragment = CardFragment()
+    }
+
     lateinit var cardAdapter: CardAdapter
-    lateinit var cards: MutableList<Cards>
+    lateinit var cards: MutableList<Card>
     private var cardPresenter = CardPresenter()
     private val orderList = arrayListOf("Por raridade", "Por raridade (Descrescente)", "Por arena", "Por elixir")
 
@@ -70,6 +75,8 @@ class CardFragment: Fragment() {
         return view
     }
 
+
+
     private fun sortBy(sortBy: String){
         when (sortBy) {
             RARITY -> {
@@ -101,7 +108,7 @@ class CardFragment: Fragment() {
         cardListView.adapter = cardAdapter
     }
 
-    private fun sortByRarity(listCard: MutableList<Cards>){
+    private fun sortByRarity(listCard: MutableList<Card>){
         val sorted = listCard.groupBy { (it.rarity) }
         if (sorted.keys.first() != "Common") {
             getAllCards()
@@ -114,7 +121,7 @@ class CardFragment: Fragment() {
     }
 
 
-    private fun sortByRarityDesc(listCard: MutableList<Cards>){
+    private fun sortByRarityDesc(listCard: MutableList<Card>){
         val sorted = listCard.groupBy { (it.rarity) }
         listCard.clear()
         sorted.values.reversed().forEach {
@@ -122,7 +129,7 @@ class CardFragment: Fragment() {
         }
     }
 
-    private fun sortByArena(listCard: MutableList<Cards>) {
+    private fun sortByArena(listCard: MutableList<Card>) {
         sortByRarityDesc(listCard)
         val sorted = cards.groupBy { (it.arena) }
         listCard.clear()
@@ -131,7 +138,7 @@ class CardFragment: Fragment() {
         }
     }
 
-    private fun sortByElixir(listCard: MutableList<Cards>) {
+    private fun sortByElixir(listCard: MutableList<Card>) {
         val sorted = listCard.groupBy { (it.elixirCost) }
         val order = TreeMap(sorted)
         listCard.clear()
@@ -142,7 +149,7 @@ class CardFragment: Fragment() {
 
     private fun getAllCards() {
         cardPresenter.getAllCards(object : CardListListener {
-            override fun onCardListLoad(cardList: MutableList<Cards>) {
+            override fun onCardListLoad(cardList: MutableList<Card>) {
                 cards = cardList
                 sortByRarity(cards)
                 cardAdapter = CardAdapter(cards)
@@ -163,5 +170,4 @@ class CardFragment: Fragment() {
             }
         })
     }
-
 }

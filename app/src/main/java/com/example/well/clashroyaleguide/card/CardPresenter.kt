@@ -1,7 +1,7 @@
 package com.example.well.clashroyaleguide.card
 
 import android.util.Log
-import com.example.well.clashroyaleguide.service.model.Cards
+import com.example.well.clashroyaleguide.service.model.Card
 import com.example.well.clashroyaleguide.service.RetrofitClient
 import com.example.well.clashroyaleguide.service.sync.contracts.CardListListener
 import io.reactivex.Observer
@@ -20,7 +20,7 @@ class CardPresenter {
 
         retrofitClient.getClashApi().getAllCards().subscribeOn(Schedulers.newThread())
                 .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(object : Observer<MutableList<Cards>>{
+                .subscribe(object : Observer<MutableList<Card>>{
                     override fun onSubscribe(d: Disposable) {
                         cardsListListener.onRequestStarted()
                     }
@@ -29,7 +29,7 @@ class CardPresenter {
                         cardsListListener.onRequestFinished()
                     }
 
-                    override fun onNext(t: MutableList<Cards>) {
+                    override fun onNext(t: MutableList<Card>) {
                         val cardList = t
                         cardsListListener.onCardListLoad(cardList)
                     }

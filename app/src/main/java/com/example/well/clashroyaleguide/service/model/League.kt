@@ -7,28 +7,28 @@ import com.google.gson.annotations.SerializedName
  * Created by wellingtonyogui on 02/12/2017.
  */
 
-class Leagues (@SerializedName("id")
+class League (@SerializedName("id")
                @Expose var id: String,
-               @SerializedName("id")
+              @SerializedName("id")
                @Expose var idName: String,
-               @SerializedName("id")
+              @SerializedName("id")
                @Expose var number: Int,
-               @SerializedName("id")
+              @SerializedName("id")
                @Expose var name: String,
-               @SerializedName("id")
+              @SerializedName("id")
                @Expose var victoryGold: Int,
-               @SerializedName("id")
+              @SerializedName("id")
                @Expose var minTrophies: Int,
-               @SerializedName("id")
+              @SerializedName("id")
                @Expose var leagueSeasionReset: Int,
-               @SerializedName("id")
+              @SerializedName("id")
                @Expose var arena: Arena,
-               @SerializedName("id")
+              @SerializedName("id")
                @Expose var order: Int,
-               @SerializedName("id")
+              @SerializedName("id")
                @Expose var v: Int, //????????
-               @SerializedName("id")
-               @Expose var chests: Chests,
-               @SerializedName("id")
+              @SerializedName("id")
+               @Expose var chest: Chest,
+              @SerializedName("id")
                @Expose var leagues: MutableList<String>)
 

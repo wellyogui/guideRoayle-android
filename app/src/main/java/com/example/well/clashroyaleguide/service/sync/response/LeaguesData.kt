@@ -1,6 +1,6 @@
 package com.example.well.clashroyaleguide.service.sync.response
 
-import com.example.well.clashroyaleguide.service.model.Leagues
+import com.example.well.clashroyaleguide.service.model.League
 import com.example.well.clashroyaleguide.service.RetrofitClient
 
 /**
@@ -8,5 +8,5 @@ import com.example.well.clashroyaleguide.service.RetrofitClient
  */
 
 class LeaguesData : RetrofitClient() {
-    lateinit var responseData: Leagues
+    lateinit var responseData: League
 }
