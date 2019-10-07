@@ -26,6 +26,11 @@ internal const val ELIXIR = "ELIXIR"
 internal var ORDER_BY = 0
 
 class CardFragment: Fragment() {
+
+    companion object {
+        fun newInstance(): CardFragment = CardFragment()
+    }
+
     lateinit var cardAdapter: CardAdapter
     lateinit var cards: MutableList<Card>
     private var cardPresenter = CardPresenter()

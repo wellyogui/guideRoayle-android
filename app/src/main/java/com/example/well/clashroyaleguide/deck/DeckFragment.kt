@@ -6,7 +6,6 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-
 import com.example.well.clashroyaleguide.R
 
 
@@ -14,6 +13,11 @@ import com.example.well.clashroyaleguide.R
  * A simple [Fragment] subclass.
  */
 class DeckFragment: Fragment() {
+
+
+    companion object {
+        fun newInstance(): DeckFragment = DeckFragment()
+    }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
